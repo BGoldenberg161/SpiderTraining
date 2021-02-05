@@ -1,0 +1,265 @@
+HTTP/1.1 200 200
+Date: Fri, 05 Feb 2021 17:05:09 GMT
+Content-Type: text/html;charset=UTF-8
+Content-Length: 12582
+Connection: keep-alive
+Set-Cookie: AWSALB=1yeH7Ds1OZZTZPlg/SFg+Kf26cHFrnmXf6g7AE0Cv2SD7r2rZdeAiLduVU2NojDNQKEnvIGLUCtJ+tLgr/7o1PqrN7utIcBahPZUB4Czhk54OVEoAJhsMz9MmZgV; Expires=Fri, 12 Feb 2021 17:05:09 GMT; Path=/
+Set-Cookie: AWSALBCORS=1yeH7Ds1OZZTZPlg/SFg+Kf26cHFrnmXf6g7AE0Cv2SD7r2rZdeAiLduVU2NojDNQKEnvIGLUCtJ+tLgr/7o1PqrN7utIcBahPZUB4Czhk54OVEoAJhsMz9MmZgV; Expires=Fri, 12 Feb 2021 17:05:09 GMT; Path=/; SameSite=None; Secure
+Server: Apache/2.4.39 (Amazon) OpenSSL/1.0.2k-fips
+X-Frame-Options: DENY
+Set-Cookie: JSESSIONID=96FF982351304618BD117AC3779A7141; Path=/; Secure; HttpOnly
+Cache-Control: private, max-age=0, no-cache
+Content-Language: en-US
+Vary: Accept-Encoding
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Silicon Mountain Technologies</title>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<meta charset="UTF-8"/>
+<meta http-equiv="content-language" content="en" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="siteName" content="home" />
+<meta name="siteGroup" content="Silicon Mountain Technologies 2020" />
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16000993-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<link href="/binary/themes//BS4_PARALAX/scripts/modules.css" type="text/css" rel="stylesheet" />
+<link href="/sb/script/SMT_24/1610729859705/BS4_PARALAX/SMT_24_2.css" type="text/css" rel="stylesheet" title="main"/>
+
+<script type="text/javascript" src="/binary/common/scripts/global.js"></script>
+<script type="text/javascript" src="/sb/script/SMT_24/1585780399084/SMT.js"></script>
+
+<link rel="shortcut icon" href="/binary/org/SMT/SMT_24/images/common/SMTIcon2015.png" type="image/x-icon" />
+	<link rel="icon" href="/binary/org/SMT/SMT_24/images/common/SMTIcon2015.png" type="image/x-icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<script src="/sb/script/en_US/DEFAULT_BUNDLE/bundle.rb"></script>
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous"><link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.7/css/bootstrap-dialog.min.css"><link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow&display=swap" rel="stylesheet"> 
+	</head>
+	<body class="subnav" data-gr-c-s-loaded="true">
+		<div class="wrapper">
+	<header class="main-header">
+		<nav id="mainNav" class="navbar navbar-borders navbar-expand-lg navbar-light fixed-top bg-transparent bg-scroll-white top-scroll">
+			<div class="logo brand">
+				</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+   				<span class="navbar-toggler-icon"></span>
+  			</button>
+  			<div class="collapse navbar-collapse" id="navbarCollapse">
+ 				<div class="fix-flex">
+ 					</div>
+				<ul class='nav navbar-nav ml-auto mainmenu'><li class='nav-item '><a href='/about'>About</a></li>
+<li class='nav-item '><a href='/services'>Services</a></li>
+<li class='nav-item '><a href='/products'>Products</a></li>
+<li class='nav-item '><a href='/contact'>Contact</a></li>
+</ul>
+<div id="loginControl" class="float-right">
+					</div>
+			</div>
+		</nav>
+	</header>
+	<div class="content-wrapper">
+		<main role="main">
+			<div class="mainTopSpacer"></div>
+			<section class="content container-fluid">
+				<div id='alertMessageBox' class="alert alert-dismissible alert-info" style="display:none">
+					<button type="button" class="close" onclick="$('.alert').hide();">&times;</button>
+					<span id='messageIcon' class=""></span>
+					<strong id='alertMessageTitle'>Success!</strong> 
+					<span id='alertMessage'>Indicates a successful or positive action.</span>
+				</div>
+ 				<div class="row col-table p-0 m-0 ">
+					<div class="col-xs-12 col-control">
+								<div class="mainCol col-sm-12 col-md-12 p-0">
+									<div class="smt_column1Wide texture">
+										<div id="smt_col1wrapperTop"></div>
+										<div id="smt_col1wrapper" class="bg-white"><div class="modSpacer">
+		<div class="image wrapper JumboImage"><img alt="software development screen" class="zoom-in" src="/binary/org/SMT/SMT2020/home-header.jpg" />
+<div class="jumboText text-white d-none d-sm-block">
+<div class="brand">
+<div class="row">
+<div class="offset-sm-3 col-sm-6 offset-4 col-6">
+<a href="/"><img src="/binary/org/SMT/SMT2020/logo.png" width="100%" /></a>
+</div>
+</div>
+</div>
+
+<h4>Business Leadership, Technical Solutions</h4>
+
+<a href="/contact"><button class="btn-primary">Make First Contact</button></a>
+</div>
+</div>
+</div>
+	<div class="modSpacer">
+		<div class="roundedDivBar"><!-- --></div>
+
+<div class="row pl-5 pr-5 pb-5 badgeWrapper">
+<div class="col-12 col-sm-6 col-md-4 align-bottom">
+<div class="spacer">&nbsp;</div>
+
+<a class="circle-button pb-2" href="#"><i class="fa-stack "><i class="fa fa-circle fa-stack-2x"><!-- test --></i> <i class="fa fa-coffee fa-stack-1x fa-inverse"><!-- test --></i> </i></a>
+
+<div class="badgeText"><i>Technical Consulting</i><br />
+In a society that moves faster than ever, businesses rely on automation and adaptability. We help bridge the gap between technical needs and efficiency.</div>
+</div>
+
+<div class="col-12 col-sm-6 col-md-4 align-middle">
+<a class="circle-button pb-2" href="#"><i class="fa-stack "><i class="fa fa-circle fa-stack-2x"><!-- test --></i> <i class="fa fa-project-diagram fa-stack-1x fa-inverse"><!-- test --></i> </i></a>
+
+<div class="badgeText "><i>Enterprise App Development</i><br />
+Growing businesses needs a system that allows growth and promotes efficiency. We provide strategies and solutions that centralize day-to-day tasks and improve processes.</div>
+</div>
+
+<div class="col-12 col-sm-6 col-md-4 align-middle">
+<div class="spacer">&nbsp;</div>
+
+<a class="circle-button pb-2" href="#"><i class="fa-stack "><i class="fa fa-circle fa-stack-2x"><!-- test --></i> <i class="fa fa-edit fa-stack-1x fa-inverse"><!-- test --></i> </i></a>
+
+<div class="badgeText"><i>Customized Solutions</i><br />
+We believe you shouldn&#39;t compromise when it comes to optimizing your business. Our team is here to put systems in place that make business easier.</div>
+</div>
+</div>
+</div>
+	<div class="modSpacer">
+		<div class="container">
+<div class="text-center mb-30">
+<h1>Agile Solutions That Scale</h1>
+</div>
+
+<p>
+<video controls="" poster="/binary/org/SMT/SMT2020/animation-poster.png" width="100%"><source src="https://www.siliconmtn.com/docs/30secondexplainervideos-SiliconMountainTechnologies_V1.mp4" type="video/mp4" /> Your browser does not support HTML5 video.</video>
+</p>
+
+<p>In an age of rapid growth and digital change, the demand for experienced software engineers has never been greater. As industry rivals grow more technically competent every day, the solutions companies need to grow are coming from centralized scalable platforms and outsourced technical support. Using modular code our team of developers are able to create solutions without needing outside consultation. The result is a sustainable platform for innovation and growth. With an Agile approach, Silicon Mountain Technologies is not only able to create flexible solutions, but centralized solutions to increase operational efficiency as well. With enterprise-level security and stability, put your trust in a veteran-owned software development firm.</p>
+
+<p>
+<video controls="" poster="/binary/org/SMT/usaf-video-poster.png" width="100%"><source src="https://www.siliconmtn.com/docs/SiliconMountain-InitialV1sizereduced.mp4" type="video/mp4" /> Your browser does not support HTML5 video.</video>
+</p>
+
+<p class="mb-30">A veteran-owned software solutions company with over 20 years of experience in the public and private sector, Silicon Mountain Technologies specializes in building scalable marketing and operational products for internal use. With a strong code of ethics and vision for providing organizations with a centralized way to manage multiple parts of company operations, Silicon Mountain Technologies is proud to have developed products that help teams get an edge on their competition.</p>
+</div>
+</div>
+	<div class="modSpacer">
+		<style type="text/css">.layered-image {
+	background-image: url(/binary/org/SMT/SMT2020/different.jpg);
+	overflow: hidden;
+	height: 750px;
+	background-position: center;
+	background-size: cover;
+}
+
+
+@media (max-width:576px) {
+
+  .layered-image {
+  	background-image: none;
+background-color: black;
+  }
+
+
+}
+</style>
+<div class="layered-image">
+<div class="layeredImageText col-12 col-sm-5 offset-sm-1 align-middle text-white">
+<h2 class="mb-30">Who Is SMT?</h2>
+
+<p class="mb-30">We are a group of unique, domestic engineers, product managers, project managers, consultants, and solutions architects. The company started in 2001 when the founders decided to hang up the corporate, Fortune 50 lifestyle for a self-driven path. In the past twenty years, SMT has built a developer toolkit and several product lines, learning from each and every success, and even more from the failures. We pride ourselves on our low turnover, and a real 40 hour workweek.</p>
+
+<p class="mb-30">We approach every problem with a critical mind, asking &quot;why&quot; rather than simply following orders. Our expertise is in designing and building the right solution, not the first one the business contemplates. Let us take on that burden and build you a scalable, reliable solution.</p>
+
+<p>We embrace our weird. We have fun and are lifelong learners.</p>
+
+<div class="text-center">
+<a href="/contact"><button class="btn-primary mt-30">Make First Contact</button></a>
+</div>
+</div>
+</div>
+</div>
+	</div>
+										<div id="smt_col1wrapperBot"></div>
+									</div>
+								</div>  
+								</div>
+						</div>
+			</section>
+		</main>
+	</div>
+</div>
+<footer class="text-center text-white py-2">
+	
+<div class="row copyright">
+<div class="col-sm-4 text-center">
+<a href="mailto:info@siliconmtn.com">info@siliconmtn.com</a>
+</div>
+
+<div class="col-sm-4 text-center">&copy; 2020 Silicon Mountain Technologies</div>
+
+<div class="col-sm-4 text-center">
+<a href="tel:7202604768">720-260-4768</a>
+</div>
+</div>
+
+<div class="row copyright">
+<div class="offset-sm-4 col-sm-4 text-center">
+<a href="/privacy">Privacy Policy</a> |
+
+<a href="/terms">Terms &amp; Conditions</a>
+</div>
+</div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script><script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script><script src="/binary/common/scripts/smt/bootstrap/util_module.js"></script>
+		<script src="/binary/themes//BS4_PARALAX/scripts/module.js"></script>
+		<script src="/binary/themes//BS4_PARALAX/scripts/parallax.min.js"></script>
+		
+		<div id="loadingBackground" class="d-none" >
+			<div class="fa-3x">
+				<em class="fas fa-sync fa-spin pr-0 mr-0"></em>
+				<span id="loadingText" class="font-weight-bold">
+				Content Loading, Please Wait.</span>
+			</div>
+		</div>
+		<script>
+			
+		
+			addLoadEvent(function() {
+				
+		
+				// Auto select the search box on the main header
+			    $('.dropdown input[type=search]').click(function(e){
+			        e.stopPropagation();
+			    });
+		
+				$('.nav-item-search').on('show.bs.dropdown', function() {
+					setTimeout(function(){$('#menu-ticket-search').focus();},0);
+				});
+				
+				
+				var prevScrollpos = window.pageYOffset;
+				window.onscroll = function() {
+				  var currentScrollPos = window.pageYOffset;
+				  if (prevScrollpos > currentScrollPos) {
+				    $('#mainNav').addClass('top-scroll');
+				  } else {
+				    $('#mainNav').removeClass('top-scroll');
+				  }
+				  prevScrollpos = currentScrollPos;
+				} 
+				
+				BS4.initManageTool();
+			});
+		</script>
+	</body>
+</html>

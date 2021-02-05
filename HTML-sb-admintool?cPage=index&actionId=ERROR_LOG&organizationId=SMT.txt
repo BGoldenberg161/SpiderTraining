@@ -1,0 +1,468 @@
+HTTP/1.1 200 200
+Date: Fri, 05 Feb 2021 04:59:45 GMT
+Content-Type: text/html;charset=UTF-8
+Content-Length: 18585
+Connection: keep-alive
+Set-Cookie: AWSALB=MocDWvIP9AT8Qw4P5JKPaU8/1BZxqoU8CprkVQpKT5CmbMtnl2urELlon91M8y28H+EdenGloMYnk8G9B3VrlQFPfrTvrnTqPixQfZC5OovqduzpZiFjVhx+OoqP; Expires=Fri, 12 Feb 2021 04:59:45 GMT; Path=/
+Set-Cookie: AWSALBCORS=MocDWvIP9AT8Qw4P5JKPaU8/1BZxqoU8CprkVQpKT5CmbMtnl2urELlon91M8y28H+EdenGloMYnk8G9B3VrlQFPfrTvrnTqPixQfZC5OovqduzpZiFjVhx+OoqP; Expires=Fri, 12 Feb 2021 04:59:45 GMT; Path=/; SameSite=None; Secure
+Server: Apache/2.4.39 (Amazon) OpenSSL/1.0.2k-fips
+X-Frame-Options: SAMEORIGIN
+X-Robots-Tag: none
+Cache-Control: private, max-age=0, no-cache, no-store
+Last-Modified: Fri, 05 Feb 2021 04:59:45 GMT
+Vary: Accept-Encoding
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Web Crescendo - Silicon Mountain Technologies</title>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+	<link rel="shortcut icon" href="/binary/themes/WC3_ADMIN_TOOL/images/common/smticon.jpg" type="image/x-icon"/>
+
+	<fmt:setLocale value=''/>
+	<fmt:setBundle var="sbBundle" basename="com.smt.sitebuilder.resource.bundle.DatabaseList" scope='request'/>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+	<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+	<link rel="stylesheet" href="/binary/themes/WC3_ADMIN_TOOL/scripts/external-lib/bootstrap/bootstrap-3.3.5.min.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/binary/themes/WC3_ADMIN_TOOL/scripts/external-lib/bootstrap-select/bootstrap-select-1.7.3.min.css">
+	<link rel="stylesheet" href="/binary/themes/WC3_ADMIN_TOOL/scripts/external-lib/bootstrap-table/bootstrap-table-1.12.1.min.css">
+	<link rel="stylesheet" href="/binary/themes/WC3_ADMIN_TOOL/scripts/external-lib/bootstrap-table/bootstrap-table-reorder-row.css">
+	<link rel="stylesheet" href="/binary/themes/WC3_ADMIN_TOOL/scripts/external-lib/bootstrap-datepicker/bootstrap-datetimepicker-4.17.37.min.css">
+	<link rel="stylesheet" href="/binary/themes/WC3_ADMIN_TOOL/scripts/app.css">
+	<link rel="stylesheet" href="/binary/themes/WC3_ADMIN_TOOL/scripts/styling-supplemental.css">
+	<link rel="stylesheet" href="/binary/themes/WC3_ADMIN_TOOL/scripts/external-lib/bootstrap-dialog/bootstrap-dialog.min.css">
+	
+	<link href="//fonts.googleapis.com/css?family=Roboto:400,700,500,100,300" rel="stylesheet" type="text/css">
+
+	<script type="text/javascript" src="/binary/themes/WC3_ADMIN_TOOL/scripts/admin.js"></script>
+
+	<script type="text/javascript" src="/binary/common/scripts/global.js"></script>
+	<script type="text/javascript" src="/binary/plugin/ckeditor_wc3/ckeditor.js"></script>
+
+	<script>
+		var organizationId = "";
+		var siteId = "";
+		var siteNm = "";
+		var instanceName = "SB";
+		var ctx = "sb";
+		var ctxPath = "";
+		var helpBaseUrl = "/admintool/help";
+		var sesLifetime = 1800;
+		var hasUserData = true;
+	</script>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-3 col-md-3 col-lg-2" id="brand-logo">
+				<a class="navbar-brand col-md-2" id="menuToggle" title="Hide menus"> 
+					<img src="/binary/themes/WC3_ADMIN_TOOL/images/WC_LOGO.png">
+					<span id="show-menu-hamburger" class="glyphicon glyphicon-menu-hamburger hide" title="Show menus">&nbsp;</span>
+				</a>
+			</div>
+			<div id="navbar" class="col-sm-9 col-md-9 col-lg-10">
+				<ul class="nav navbar-nav stripe-nav">
+					<li class="dropdown-list org-dropdown pull-left">
+						<select 
+	
+	name="org-list"
+	class="ajax-list selectpicker org-list" 
+	data-default-val="Select an Organization to begin..." 
+	data-selected="" 
+	data-base-url="?actionId=DASHBOARD&amp;selOrg=" 
+	data-url-callback="" 
+	data-icon="fa fa-sitemap" 
+	data-action-id="ORG_LIST" 
+	data-class-nm="org-list" 
+	data-size="7" 
+	data-live-search="true" 
+	data-title=""
+	data-cache-clear="siteList|notices" 
+	data-cache-key="orgList"
+	data-width="auto"
+	data-ajax-config=""
+	data-ajax-callback=""
+	data-is-cached="true">
+</select></li>
+					<li class="org-dropdown-arrow pull-left hidden-xs hidden-sm">
+					</li>
+					</ul>
+
+				<ul class="nav navbar-nav navbar-right stripe-nav">
+					<li><a id="timerrefresh" href="javascript:;" onclick="SMT.sessionTimer.extendSessionTime();" data-placement="bottom" title="Click here to extend your session"><i class="fa fa-refresh highlight"></i><span id="timer" class="visible-lg pull-right"><span></a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" id="user-menu-dropdown">
+							<i class="fa fa-user highlight pull-left" id="usericon"></i>
+							<span class="visible-lg pull-left">Branden&nbsp;Goldenberg</span>
+							<span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu" role="menu">
+							<li class="hidden-lg" id="profile-dropdown-header">
+								<a href="#">Branden&nbsp;Goldenberg</a>	
+							</li>
+							<li>
+								<a href="?cPage=info&amp;profileId=none&amp;myProfile=1&amp;actionId=USER_AUTH">My Profile</a>
+							</li>
+							<li>
+								<a href="?logOff=true" data-cache-clear="all">Log Off</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</nav><div class="container-fluid">
+	<div class="row" id="body-row">
+	<section class="col-sm-3 col-md-3 col-lg-2 sidebar hidden-xs" id="menu-section">
+		<div class="nav nav-sidebar" id="menuAccordion" role="tablist" aria-multiselectable="true">
+	<li class="panel no-spacing disabled">
+				<a href="#" class="collapsed" data-toggle="tooltip" data-placement="right" title="Select an organization to continue.">
+					<i class="fa fa-dashboard"></i>Dashboard
+				</a>
+			</li>
+			<li class="panel no-spacing disabled">
+				<a href="#" class="collapsed" data-toggle="tooltip" data-placement="right" title="Select an organization to continue.">
+					<i class="fa fa-check-square"></i>Approvals
+				</a>
+			</li>
+			<li class="panel no-spacing disabled">
+				<a href="#" class="collapsed" data-toggle="tooltip" data-placement="right" title="Select an organization to continue.">
+					<i class="fa fa-gears"></i>Components
+				</a>
+			</li>
+			<li class="panel no-spacing disabled">
+					<a href="#" class="collapsed" data-toggle="tooltip" data-placement="right" title="Select an organization to continue.">
+						<i class="fa fa-laptop"></i>Website
+					</a>
+				</li>
+			<li class="panel no-spacing disabled">
+				<a href="#" class="collapsed" data-toggle="tooltip" data-placement="right" title="Select an organization to continue.">
+					<i class="fa fa-sitemap"></i>Organization
+				</a>
+			</li>
+			<li class="panel no-spacing disabled">
+				<a href="#" class="collapsed" data-toggle="tooltip" data-placement="right" title="Select an organization to continue.">
+					<i class="fa fa-table"></i>Reports
+				</a>
+			</li>
+			<li class="panel no-spacing">
+				<a role="button" data-toggle="collapse" data-parent="#menuAccordion" href="#perfMenu" aria-expanded="false" aria-control="perfMenu" >
+					<i class="fa fa-line-chart"></i>Performance
+				</a>
+				<ul class="collapse list-unstyled in active" id="perfMenu">
+						<li>
+							<a href="/sb/admintool?cPage=index&amp;actionId=FLUSH_CACHE">Flush Cache</a>
+						</li>
+						<li>
+							<a href="/sb/admintool?cPage=stats&amp;actionId=FLUSH_CACHE">Cache Stats</a>
+						</li>
+						</ul>
+				</li>
+			<li class="panel no-spacing ">
+					<a href="/sb/admintool?cPage=index&amp;actionId=USER_AUTH&amp;start=1&amp;organizationId=" class="collapsed">
+						<i class="fa fa-users"></i>Users
+					</a>
+				</li>
+	
+				<li class="panel no-spacing ">
+					<a role="button" data-toggle="collapse" data-parent="#menuAccordion" href="#themeMenu" aria-expanded="false" aria-control="themeMenu" class="collapsed">
+						<i class="fa fa-wrench"></i>Configuration
+					</a>
+					<ul class="collapse list-unstyled" id="themeMenu">
+						<li>
+							<a href="/sb/admintool?cPage=index&amp;actionId=THEME">Themes</a>
+						</li>
+						<li>
+							<a href="/sb/admintool?cPage=index&amp;actionId=MODULE">Widget Admin</a>
+						</li>
+						<li>
+							<a href="/sb/admintool?cPage=index&amp;actionId=WRAPPER">Display Wrappers</a>
+						</li>
+						<li>
+								<a href="/sb/admintool?cPage=index&amp;actionId=ORG&amp;menuOverride=configuration">Create Organization</a>
+							</li>
+						</ul>
+				</li>
+			<li class="panel no-spacing ">
+				<a href="/sb/admintool?cPage=index&amp;actionId=SUPPORT_TICKET&amp;ticketType=PROJECT"class="collapsed">
+					<i class="fa fa-life-saver"></i>Support
+				</a>
+			</li>
+			<li class="panel no-spacing ">
+					<div class="instance_div">
+						<i class="fa  fa-map-signs "></i> <span><strong>Instance: Production</strong></span>
+					</div>
+					<div class="version_div">
+						<span><strong>Version Info</strong></span>
+						<br/><span>Web Crescendo: 7.1.2</span>
+						<br/><span>Custom: 3.71.1</span>
+						<br/><span>BaseLibs: 3.24.1</span>
+					</div>
+			</li>
+		</ul>
+</section>
+	
+	<div id="main-wrap" class="col-sm-9 col-md-9 col-lg-10 col-sm-offset-3 col-md-offset-3 col-lg-offset-2 main">
+		<div class="row">
+			<section class="col-xs-12" id="site-info">
+				</section>
+			<section class="col-xs-12" id="body-section">
+				<h1 class="page-header">
+	<span>Error LOG Display</span>
+	<button class="help-lg-lifesaver-icon pull-right" data-target="#helpmodal" data-toggle="modal" onClick="WebCrescendo.Util.loadHelpIframe('help-iframe', '/PerfActions/ERROR_LOG.html');">
+		<span class="fa fa-life-saver"></span>
+	</button>
+</h1>
+
+
+<div class="modal fade" id="helpmodal" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true"><span class="fa fa-times"></span></span>
+				</button>
+				<h4 class="modal-title">
+					<div class="help-icon">
+						<em class="fa fa-line-chart yellowFA" aria-hidden="true"></em>
+					</div>
+					<span class="help-title-leader">Help Topic:</span> Error LOG Display</h4>
+			</div>
+			<div class="modal-body">
+				<iframe frameBorder="0" id="help-iframe" height="550px" width="870px" src="about:blank"></iframe>
+			</div>
+			<div class="modal-footer">
+				<div class="row">
+					<div class="col-xs-6 footer-logo pull-left">
+						<img src="/binary/themes/WC3_ADMIN_TOOL/images/horizontal-wc3-dark-small.png" alt="Web Crescendo logo" class="pull-left">
+					</div>
+					<div class="col-xs-6 pull-right ct-box-wrap">
+						<h6 class="more-help">Need more help? &nbsp;</h6>
+						<a href="mailto:mike@siliconmtn.com?subject=WC3 Admintool Help" title="Send an email"><span class="fa fa-envelope" aria-hidden="true"></span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><div class='row'>
+	<div class="col-12 pull-right" style="padding-right:15px;">
+		<button class="btn btn-primary" id='db-clear-btn' onclick="WebCrescendo.Admin.ERROR_LOG.emptyErrorLogTable();">Clear Error Log Table</button>
+	</div>
+</div>
+<hr/>
+<form id="errorLogForm" class="form-row">
+	<input type="hidden" name="json" value="true"/>
+	<input type="hidden" name="loadAppender" value="true"/>
+	<input type="hidden" name="actionId" value="ERROR_LOG"/>
+	<div class=''>
+		<div class="">
+			<div class='col'><h4><strong>Manage Logging Appender</strong></h4></div>
+		</div>
+		<div class="row">
+			<div class="form-group col-lg-2">
+				<div class='d-flex flex-column'>
+					<label for="appenderLogLevel" class="control-label">Log Level</label>
+					<select class="selectpicker form-control" name="logLevel" id="logLevel">
+						<option value="">All Levels</option>
+						<option value="DEBUG">DeBug</option>
+						<option value="INFO">Info</option>
+						<option value="WARN">Warning</option>
+						<option value="ERROR">Error</option>
+						<option value="FATAL">Fatal</option>
+					</select>
+				</div>
+			</div>
+			<div class="form-group col-lg-2">
+				<div class='d-flex flex-column'>
+					<label for="filterField" class="control-label">Filter Field</label>
+					<select class="selectpicker form-control" name="filterField" id="filterField">
+						<option value="className">Class Name</option>
+						<option value="errorMessage">Message</option>
+						<option value="methodName">Method Name</option>
+						<option value="packageName">Package Name</option>
+						<option value="stackTrace">Stack Trace Text</option>
+					</select>
+				</div>
+			</div>
+			<div class="form-group col-lg-2">
+				<div class='d-flex flex-column'>
+					<label for="filterValue" class="control-label">Filter Value</label>
+					<input type="text" class="form-control" name="filterValue" id="filterValue" value="" />
+				</div>
+			</div>
+			<div class="form-group col-lg-2">
+				<div class='d-flex flex-column'>
+					<label for="filterType" class="control-label">Filter Type</label>
+					<select class="selectpicker form-control" name="filterType" id="filterType">
+						<option value="INCLUSIVE">Inclusive</option>
+						<option value="EXCLUSIVE">Exclusive</option>
+					</select>
+				</div>
+			</div>
+			<div class="form-group col-lg-2">
+				<div class='d-flex flex-column'>
+					<label for="filterType" class="control-label">Appender Status</label>
+					<input class="form-control red-input" type="text" readonly name="appenderStatus" id="appenderStatus" value="STOPPED"/>
+				</div>
+			</div>
+			<div class="form-group col-lg-1">
+				<div class='d-flex flex-column'>
+					<label for="startStopLogging" class="control-label">&nbsp; </label>
+					<button 
+						type="button" 
+						id="startStopLogging" 
+						class='form-control btn btn-success' 
+						onclick='WebCrescendo.Admin.ERROR_LOG.manageAppenderStatus();'>
+						Start
+					</button>
+				</div>
+			</div>
+			<div class="form-group col-lg-1">
+				<div class='d-flex flex-column'>
+					<label for="startStopLogging" class="control-label">&nbsp; </label>
+					<button 
+						type="button" 
+						id="startStopLogging" 
+						class='form-control btn btn-danger' 
+						onclick='WebCrescendo.Admin.ERROR_LOG.stopLogging();'>
+						Stop
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</form>
+<hr/>
+<div class="form-inline" id="toolbar">
+		<input class="form-control datepicker" placeholder="Start Date" type="text" name="startDate" id="startDate" value="" onblur="$('#error-table').bootstrapTable('refresh');" />
+		<input class="datepicker form-control" placeholder="End Date" type="text" name="endDate" id="endDate" value=""  onblur="$('#error-table').bootstrapTable('refresh');"/>
+		<select class="selectpicker" placeholder="Select Logging Level" name="logLevel" id="listLogLevel" onchange="$('#error-table').bootstrapTable('refresh');">
+			<option value="">All Levels</option>
+			<option value="DEBUG">DeBug</option>
+			<option value="INFO">Info</option>
+			<option value="WARN">Warning</option>
+			<option value="ERROR">Error</option>
+			<option value="FATAL">Fatal</option>
+		</select>
+		<button type="button" class="btn btn-light" onclick="WebCrescendo.Util.clearBootstrapTablesSearchFilters('#error-table');">
+			Clear Filter
+		</button>
+</div>
+<div id="error-panel-with-dropdowns" class="bootstrapTableOverflowFix">
+	<table 
+	data-bootstrap-table-config="WebCrescendo.Admin.ERROR_LOG.errorTableConfig"
+	class="smt-bootstrap-table table "
+	id="error-table"
+	data-classes="table-hover table-condensed table-no-bordered table-striped"
+	data-checkbox=""
+	data-load-success=""
+	data-click-to-select="false"
+	data-pagination="true"
+	data-show-columns="true"
+	data-show-refresh="true"
+	data-show-fullscreen="true"
+	data-id-field="errorLogId"
+	data-toolbar="#toolbar"
+	data-url="/wcUtility"
+	data-search="true"
+	data-search-time-out="0"
+	data-trim-on-search="false"
+	data-auto-load="true"
+		
+	
+		data-page-list="[10, 25, 50, 100, 250]"
+		data-smart-display="false"	
+	
+	data-side-pagination="server"
+	data-response-handler="wcUtilityResponseHandler"
+	data-height=""
+	data-cookie=""
+	data-cookie-path="/"
+	data-page-size="10"
+	data-detail-view="false"
+	data-detail-formatter="false"
+	data-cookie-id-table=""
+	data-flat=""
+	data-sort-order=""
+	
+	
+	data-reorderable-rows="false"
+	data-row-style="">
+</table>
+</div>
+
+<script>
+addLoadEvent(function() {
+	$(window).load(function(){
+		let filterType = '';
+		$('#logLevel').selectpicker('val', '');
+		$('#filterField').selectpicker('val', '');
+		$('#filterType').selectpicker('val', filterType ? filterType : 'INCLUSIVE');
+	});
+});
+
+
+</script>
+</section>
+		</div>
+	</div>
+</div></div>
+
+<script src="/binary/common/scripts/jsRender/jsRender.min.js"></script>
+
+<script src="/binary/themes/WC3_ADMIN_TOOL/scripts/external-lib/bootstrap/bootstrap-3.3.5.min.js"></script>
+
+<script src="/binary/themes/WC3_ADMIN_TOOL/scripts/external-lib/bootstrap-select/bootstrap-select-1.7.3.min.js"></script>
+
+<script src="/binary/themes/WC3_ADMIN_TOOL/scripts/external-lib/bootstrap-table/bootstrap-table-1.12.1.min.js"></script>
+<script src="/binary/themes/WC3_ADMIN_TOOL/scripts/external-lib/bootstrap-table/bootstrap-table-cookie.js"></script>
+<script src="/binary/themes/WC3_ADMIN_TOOL/scripts/external-lib/bootstrap-table/bootstrap-table-flat-json.js"></script>
+<script src="/binary/themes/WC3_ADMIN_TOOL/scripts/external-lib/bootstrap-modal-steps/bootstrap-modal-steps-min.js"></script>
+<script src="/binary/themes/WC3_ADMIN_TOOL/scripts/external-lib/bootstrap-dialog/bootstrap-dialog.min.js"></script>
+<script src="//rawgit.com/isocra/TableDnD/master/js/jquery.tablednd.js"></script>
+<script src="/binary/themes/WC3_ADMIN_TOOL/scripts/external-lib/bootstrap-table/bootstrap-table-row-reorder.js"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
+<script src="/binary/themes/WC3_ADMIN_TOOL/scripts/external-lib/bootstrap-datepicker/bootstrap-datetimepicker-4.17.37.min.js"></script>
+<script src="/binary/themes/WC3_ADMIN_TOOL/scripts/external-lib/bootbox/bootbox-4.4.0.min.js"></script>
+
+<script type="text/javascript" src="/binary/themes/WC3_ADMIN_TOOL/scripts/approvals.js"></script>
+	<script type="text/javascript" src="/binary/plugin/ckeditor_wc3/adapters/jquery.js"></script>
+
+	<script src="/binary/common/scripts/SMTJSLibs.js" type="text/javascript"></script><script src="/binary/themes/WC3_ADMIN_TOOL/scripts/javascript-supplemental.js"></script>
+	<script src="/binary/themes/WC3_ADMIN_TOOL/scripts/custom-javascript-supplemental.js"></script>
+	<script>
+		addLoadEvent(function() {
+			WebCrescendo.Admin.initTheme();
+		});
+	</script>
+
+<div id="imgPrevModal" class="modal fade" role="dialog" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span class="fa fa-times" aria-hidden="true"></span>
+				</button>
+				<h4>Preview Image</h4>
+			</div>
+			<div class="modal-body">
+				<img src="" class="img-responsive">
+			</div>
+		</div>
+	</div>
+</div>
+
+	<div id="remoteUrlModal" class="modal fade" role="dialog" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content"></div>
+	</div>
+</div>
+</body>
+</html>

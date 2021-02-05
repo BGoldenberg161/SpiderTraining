@@ -1,0 +1,14 @@
+HTTP/1.1 302 302
+Date: Fri, 05 Feb 2021 04:53:43 GMT
+Content-Type: UTF-8;charset=UTF-8
+Content-Length: 0
+Connection: keep-alive
+Set-Cookie: AWSALB=aDyyQQH6ZXP7NyO++qpR1gfX9fmHXD6hXaY5vtK9ciLCEe+f0460xtmZxeMw1TNcyt+jMZi0rXj7gb+H1N4xcwEOrc78ua+XVfvtybUuQfPRPOAWdUjMJ/IsJB2a; Expires=Fri, 12 Feb 2021 04:53:42 GMT; Path=/
+Set-Cookie: AWSALBCORS=aDyyQQH6ZXP7NyO++qpR1gfX9fmHXD6hXaY5vtK9ciLCEe+f0460xtmZxeMw1TNcyt+jMZi0rXj7gb+H1N4xcwEOrc78ua+XVfvtybUuQfPRPOAWdUjMJ/IsJB2a; Expires=Fri, 12 Feb 2021 04:53:42 GMT; Path=/; SameSite=None; Secure
+Server: Apache/2.4.39 (Amazon) OpenSSL/1.0.2k-fips
+X-Frame-Options: SAMEORIGIN
+X-Robots-Tag: none
+Set-Cookie: JSESSIONID=165158359491CD86092B1C3861E36354; Path=/; Secure; HttpOnly
+Set-Cookie: smt.admin.loginComplete=1; Path=/
+Location: /admintool
+

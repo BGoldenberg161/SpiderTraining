@@ -1,0 +1,301 @@
+HTTP/1.1 200 200
+Date: Fri, 05 Feb 2021 17:09:10 GMT
+Content-Type: text/html;charset=UTF-8
+Content-Length: 11690
+Connection: keep-alive
+Set-Cookie: AWSALB=OOlC+/LbFeZJJl37yIICAFPCwrLiW27ihxRTLLv3XPCeVzSjUBC4wfhtTEzP9puX2wA0+BrGU4WlGQHM3BB+xpMj/v7Ak0RlMYFCmKRBrUFGQMAHfxB33fN9iQSn; Expires=Fri, 12 Feb 2021 17:09:10 GMT; Path=/
+Set-Cookie: AWSALBCORS=OOlC+/LbFeZJJl37yIICAFPCwrLiW27ihxRTLLv3XPCeVzSjUBC4wfhtTEzP9puX2wA0+BrGU4WlGQHM3BB+xpMj/v7Ak0RlMYFCmKRBrUFGQMAHfxB33fN9iQSn; Expires=Fri, 12 Feb 2021 17:09:10 GMT; Path=/; SameSite=None; Secure
+Server: Apache/2.4.39 (Amazon) OpenSSL/1.0.2k-fips
+X-Frame-Options: DENY
+Set-Cookie: JSESSIONID=FEEE339A1AFF6C1CF062E8DE61E1CD0F; Path=/; Secure; HttpOnly
+Cache-Control: private, max-age=0, no-cache
+Content-Language: en-US
+Vary: Accept-Encoding
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Contact Us | Silicon Mountain Technologies</title>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<meta charset="UTF-8"/>
+<meta http-equiv="content-language" content="en" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="siteName" content="contact" />
+<meta name="siteGroup" content="Silicon Mountain Technologies 2020" />
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16000993-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<link href="/binary/themes//BS4_PARALAX/scripts/modules.css" type="text/css" rel="stylesheet" />
+<link href="/sb/script/SMT_24/1610729859705/BS4_PARALAX/SMT_24_2.css" type="text/css" rel="stylesheet" title="main"/>
+
+<script type="text/javascript" src="/binary/common/scripts/global.js"></script>
+<script type="text/javascript" src="/sb/script/SMT_24/1585780399084/SMT.js"></script>
+
+<link rel="shortcut icon" href="/binary/org/SMT/SMT_24/images/common/SMTIcon2015.png" type="image/x-icon" />
+	<link rel="icon" href="/binary/org/SMT/SMT_24/images/common/SMTIcon2015.png" type="image/x-icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<script src="/sb/script/en_US/DEFAULT_BUNDLE/bundle.rb"></script>
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous"><link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.7/css/bootstrap-dialog.min.css"><link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow&display=swap" rel="stylesheet"> 
+	</head>
+	<body class="subnav" data-gr-c-s-loaded="true">
+		<div class="wrapper">
+	<header class="main-header">
+		<nav id="mainNav" class="navbar navbar-borders navbar-expand-lg navbar-light fixed-top bg-transparent bg-scroll-white top-scroll">
+			<div class="logo brand">
+				</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+   				<span class="navbar-toggler-icon"></span>
+  			</button>
+  			<div class="collapse navbar-collapse" id="navbarCollapse">
+ 				<div class="fix-flex">
+ 					</div>
+				<ul class='nav navbar-nav ml-auto mainmenu'><li class='nav-item '><a href='/about'>About</a></li>
+<li class='nav-item '><a href='/services'>Services</a></li>
+<li class='nav-item '><a href='/products'>Products</a></li>
+<li class='nav-item active'><a href='/contact'>Contact</a></li>
+</ul>
+<div id="loginControl" class="float-right">
+					</div>
+			</div>
+		</nav>
+	</header>
+	<div class="content-wrapper">
+		<main role="main">
+			<div class="mainTopSpacer"></div>
+			<section class="content container-fluid">
+			 	<div class="row p-0 m-0">
+					<div class="col-12 p-0 m-0 jumbo">
+						</div>
+				</div>
+				<div id='alertMessageBox' class="alert alert-dismissible alert-info" style="display:none">
+					<button type="button" class="close" onclick="$('.alert').hide();">&times;</button>
+					<span id='messageIcon' class=""></span>
+					<strong id='alertMessageTitle'>Success!</strong> 
+					<span id='alertMessage'>Indicates a successful or positive action.</span>
+				</div>
+ 				<div class="row m-0 col-table">
+
+ 				
+					<div class="container-fluid">
+
+							<div class="row col-control pt-0 pb-2">
+								<div class="mainCol px-0 col-sm-12 col-md-12 ">
+									<div class="smt_column1Wide texture">
+										<div id="smt_col1wrapperTop"></div>
+										<div id="smt_col1wrapper" ><div class="modSpacer">
+		<div class="image wrapper JumboImage"><img alt="antenna" class="zoom-in" src="/binary/org/SMT/SMT2020/contact.jpg" /></div>
+
+<div class="jumboText text-white">
+<div class="brand">
+<div class="row">
+<div class="offset-sm-3 col-sm-6 offset-4 col-6">&nbsp;</div>
+</div>
+</div>
+
+<h4>Let's Make First Contact</h4>
+</div>
+
+<div class="roundedDivBar"><!-- --></div>
+</div>
+	<div class="modSpacer">
+		<div class="contactWrapper cW39d558e9ca43b751ac10022a8e5b9909">
+	<h1>Contact Us</h1>
+	
+	<div class="header"><p>Please fill out the form, and we will get back with you shortly.</p>
+</div>
+	
+<form action="/contact" method="post" enctype='multipart/form-data' name="contactUsForm">
+	<input type='hidden' name='pmid' value='e67c78ac815d5002ac100253118415fe'/>
+	<input type='hidden' name='contactSubmitted' value='true'/>
+	<input type='hidden' name='requestType' value='reqBuild'/>
+	<input type='hidden' name='dealerLocationId' value=''/>
+	<input type='hidden' name='infoUrl' value=''/>
+	<input type='hidden' name='profileFlag' value='false'/>
+	<input type='hidden' name='sbActionId' value='39d558e9ca43b751ac10022a8e5b9909'/>
+	<input type='hidden' name='sbActionGroupId' value='c0a802411a63ccc4ac6e9d8f504acd84'/>
+	<input type='hidden' name='actionName' value='Contact Us'/>
+	<input type='hidden' name='contactEmailAddress' value='marketing@siliconmtn.com'/>
+	<input type='hidden' name='postProcess' value=''/>
+	<input type='hidden' name='printerFriendlyTheme' value=''/>
+	<input type='hidden' name='hidePf' value=''/>
+	<div class="row contactQuestion" id="contactQuestion1">
+	  <div class="col-xs-12 col-sm-5 contactLabel" id="contactLabel1">
+		<span class="required">*</span>
+		<label for="First_Name">
+			First Name:</label></div>
+	  
+	  <div class="col-xs-12 col-sm-7 contactInput" id="contactInput1">
+	    <input type="text" placeholder="First Name" 
+					name="pfl_FIRST_NM" class="text"
+					id="First_Name"
+					onblur="" value=""/>
+			</div>
+	</div>
+<div class="row contactQuestion" id="contactQuestion2">
+	  <div class="col-xs-12 col-sm-5 contactLabel" id="contactLabel2">
+		<label for="~Last_Name">
+			Last Name:</label></div>
+	  
+	  <div class="col-xs-12 col-sm-7 contactInput" id="contactInput2">
+	    <input type="text" placeholder="Last Name" 
+					name="pfl_LAST_NM" class="text"
+					id="~Last_Name"
+					onblur="" value=""/>
+			</div>
+	</div>
+<div class="row contactQuestion" id="contactQuestion3">
+	  <div class="col-xs-12 col-sm-5 contactLabel" id="contactLabel3">
+		<span class="required">*</span>
+		<label for="Email_Address">
+			Email Address:</label></div>
+	  
+	  <div class="col-xs-12 col-sm-7 contactInput" id="contactInput3">
+	    <input type="text" placeholder="Email Address" 
+					name="pfl_EMAIL_ADDRESS_TXT" class="text"
+					id="Email_Address"
+					onblur="" value=""/>
+			</div>
+	</div>
+<div class="row contactQuestion" id="contactQuestion4">
+	  <div class="col-xs-12 col-sm-5 contactLabel" id="contactLabel4">
+		<label for="~Primary_Phone_Number">
+			Phone:</label></div>
+	  
+	  <div class="col-xs-12 col-sm-7 contactInput" id="contactInput4">
+	    <input type="text" placeholder="Phone" 
+					name="pfl_MAIN_PHONE_TXT" class="text"
+					id="~Primary_Phone_Number"
+					onblur="" value=""/>
+			</div>
+	</div>
+<div class="row contactQuestion" id="contactQuestion5">
+	  <div class="col-xs-12 col-sm-5 contactLabel" id="contactLabel5">
+		<span class="required">*</span>
+		<label for="Company_Name">
+			Company Name:</label></div>
+	  
+	  <div class="col-xs-12 col-sm-7 contactInput" id="contactInput5">
+	    <input type="text" placeholder="Company Name" 
+					name="con_c0a802411a6589036d63ecf764fdb302" class="text"
+					id="Company_Name"
+					onblur="" value=""/>
+			</div>
+	</div>
+<div class="row contactQuestion" id="contactQuestion6">
+	  <div class="col-xs-12 col-sm-5 contactLabel" id="contactLabel6">
+		<label for="~Comments">
+			Comments:</label></div>
+	  
+	  <div class="col-xs-12 col-sm-7 contactInput" id="contactInput6">
+	    <textarea name="con_c0a8021eeec131a489425c1d17d77f" 
+					placeholder="Comments" 
+					class="textarea" onblur="" 
+					id="~Comments"></textarea>
+			</div>
+	</div>
+<div class="row">
+	<div class="col-xs-12 col-sm-7 submitButton col-sm-offset-5">
+		<input type="button" class="button" value="Submit" onclick="submitContact(this.form,'Your submission requires  ', 'Your submission requires that you agree to the consent statement.');"/>
+	</div>
+</div>
+</form>
+<script type="text/javascript">
+//Dynamic country/state lists...
+var lst = new SMTDynStateList("sb");
+
+lst.countryCd = "US";
+lst.stateCd = "";
+lst.init();
+
+</script>
+
+</div>
+</div>
+	</div>
+										<div id="smt_col1wrapperBot"></div>
+									</div>
+								</div>  
+								</div>
+							</div>
+						</div>
+			</section>
+		</main>
+	</div>
+</div>
+<footer class="text-center text-white py-5">
+	
+<div class="row copyright">
+<div class="col-sm-4 text-center">
+<a href="mailto:info@siliconmtn.com">info@siliconmtn.com</a>
+</div>
+
+<div class="col-sm-4 text-center">&copy; 2020 Silicon Mountain Technologies</div>
+
+<div class="col-sm-4 text-center">
+<a href="tel:7202604768">720-260-4768</a>
+</div>
+</div>
+
+<div class="row copyright">
+<div class="offset-sm-4 col-sm-4 text-center">
+<a href="/privacy">Privacy Policy</a> |
+
+<a href="/terms">Terms &amp; Conditions</a>
+</div>
+</div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script><script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script><script src="/binary/common/scripts/smt/bootstrap/util_module.js"></script>
+		<script src="/binary/themes//BS4_PARALAX/scripts/module.js"></script>
+		<script src="/binary/themes//BS4_PARALAX/scripts/parallax.min.js"></script>
+		
+		<div id="loadingBackground" class="d-none" >
+			<div class="fa-3x">
+				<em class="fas fa-sync fa-spin pr-0 mr-0"></em>
+				<span id="loadingText" class="font-weight-bold">
+				Content Loading, Please Wait.</span>
+			</div>
+		</div>
+		<script>
+			
+		
+			addLoadEvent(function() {
+				
+		
+				// Auto select the search box on the main header
+			    $('.dropdown input[type=search]').click(function(e){
+			        e.stopPropagation();
+			    });
+		
+				$('.nav-item-search').on('show.bs.dropdown', function() {
+					setTimeout(function(){$('#menu-ticket-search').focus();},0);
+				});
+				
+				
+				var prevScrollpos = window.pageYOffset;
+				window.onscroll = function() {
+				  var currentScrollPos = window.pageYOffset;
+				  if (prevScrollpos > currentScrollPos) {
+				    $('#mainNav').addClass('top-scroll');
+				  } else {
+				    $('#mainNav').removeClass('top-scroll');
+				  }
+				  prevScrollpos = currentScrollPos;
+				} 
+				
+				BS4.initManageTool();
+			});
+		</script>
+	</body>
+</html>
